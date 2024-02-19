@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-text product-more">
-                        <a href="./home.html"><i class="fa fa-home"></i> Home</a>
+                        <router-link to="/"><i class="fa fa-home"></i> Home</router-link>
                         <span>Detail</span>
                     </div>
                 </div>
@@ -79,8 +79,9 @@
             </div>
         </div>
     </section>
-    <!-- Product Shop Section End -->
-      <FooterMraz />
+    <!-- Product Shop Section End -->\
+    <RelatedMraz />
+    <FooterMraz />
   
     </div>
   </template>
@@ -88,6 +89,7 @@
 <script>
   // @ is an alias to /src
   import HeaderMraz from '@/components/HeaderMraz.vue';
+  import RelatedMraz from'@/components/RelatedMraz.vue';
   import FooterMraz from '@/components/FooterMraz.vue';
 
   import "vue3-carousel/dist/carousel.css";
@@ -98,6 +100,7 @@
     name: 'ProductView',
     components: {
       HeaderMraz,
+      RelatedMraz,
       FooterMraz,
       Carousel, Slide, Navigation, Pagination
     },
