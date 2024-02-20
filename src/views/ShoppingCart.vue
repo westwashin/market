@@ -4,9 +4,9 @@
     <div class="breacrumb-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 text-left">
                     <div class="breadcrumb-text product-more">
-                        <a href="./home.html"><i class="fa fa-home"></i> Home</a>
+                        <router-link to="/"><i class="fa fa-home"></i> Home</router-link>
                         <span>Shopping Cart</span>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                             </div>
                         </div>
                         <div class="col-lg-8">
-                            <h4 class="mb-4">
+                            <h4 class="mb-4 text-left">
                                 Informasi Pembeli:
                             </h4>
                             <div class="user-checkout">
@@ -90,7 +90,7 @@
                 <div class="col-lg-4">
                     <div class="row">
                         <div class="col-lg-12">
-                            <div class="proceed-checkout">
+                            <div class="proceed-checkout text-left">
                                 <ul>
                                     <li class="subtotal">ID Transaction <span>#SH12000</span></li>
                                     <li class="subtotal mt-3">Subtotal <span>$240.00</span></li>
@@ -100,7 +100,7 @@
                                     <li class="subtotal mt-3">No. Rekening <span>2208 1996 1403</span></li>
                                     <li class="subtotal mt-3">Nama Penerima <span>Shayna</span></li>
                                 </ul>
-                                <a href="success.html" class="proceed-btn">I ALREADY PAID</a>
+                                <router-link to="/success"><a href="success.html" class="proceed-btn">I ALREADY PAID</a></router-link>
                             </div>
                         </div>
                     </div>
@@ -125,8 +125,8 @@ export default {
       HeaderMraz,
       FooterMraz,
     },
-}
+    }
 
 
 
-</script>
+    </script>

@@ -1,6 +1,8 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ProductView from '../views/ProductView.vue'
+import ShoppingCart from '../views/ShoppingCart.vue'
+import SuccessView from '../views/SuccessView.vue'
 
 const routes = [
   {
@@ -20,7 +22,18 @@ const routes = [
     path: '/product',
     name: 'product',
     component: ProductView
-  }
+  },
+  {
+    path: '/cart',
+    name: 'cart',
+    component: ShoppingCart
+  },
+  {
+    path: '/success',
+    name: 'success',
+    component: SuccessView
+  },
+
 ]
 
 const router = createRouter({
