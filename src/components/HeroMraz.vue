@@ -85,10 +85,10 @@ p {
 
 .set-bg {
     width: 100%;
-    height: 1000px;  
+    height:750px;  
 }
 
 .banner-info{
-    margin-top: 300px;
+    margin-top: 150px;
 }
 </style>

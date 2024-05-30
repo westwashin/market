@@ -18,7 +18,7 @@
                     <div class="col-lg-2 col-md-2">
                         <div class="logo">
                             <a href="./index.html">
-                                <img src="" alt="" />
+                                <img src="img/kleids-logo.png" alt="" />
                             </a>
                         </div>
                     </div>
